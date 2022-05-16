@@ -1,0 +1,12 @@
+you_are_mine = 20
+love_you = 40
+
+def my_new_function(ss_days):
+  return (f"{ss_days} days are {you_are_mine*love_you} minutes")
+
+
+
+user_input = input("Please enter a value\n")
+new_type_value=int(user_input)
+after_input = my_new_function(new_type_value)
+print(after_input)
